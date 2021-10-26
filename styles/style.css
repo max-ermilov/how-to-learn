@@ -30,19 +30,30 @@
 }
 
 .header__title {
-  max-width: 730;
+  max-width: 730px;
   margin: auto;
   margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   z-index: 2;
+  border: 1px solid olive;
 }
 
 .header__subtitle {
   width: 388px;
-  margin-left: 64px;
-  margin-bottom: 30px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  z-index: 2;
+  border: 1px solid olive;
+}
+
+.header__link {
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -52,11 +63,6 @@ bottom: 0;
 width: 765px;
 height: 608px;
 z-index: 1;
-}
-
-.header__main-illustration-img {
-  width: 100%;
-  height: 100%;
 }
 
 .header__square-pic {
