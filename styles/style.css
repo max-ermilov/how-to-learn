@@ -7,10 +7,13 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
   }
 
 .header {
   position: relative;
+  padding: 0;
+  /* border: 1px solid orange; */
   }
 
 .header_style {
@@ -19,7 +22,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
-  border: 1px solid orange;
 }
 
 .logo_place_header {
@@ -40,10 +42,12 @@
   line-height: 96px;
   font-weight: bold;
   z-index: 2;
-  border: 1px solid olive;
 }
 
 .header__subtitle {
+  /* margin-block-start: 0; */
+  /* margin-block-end: 0.83em; */
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -52,11 +56,6 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 2;
-  border: 1px solid olive;
-}
-
-.header__link {
-  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -77,6 +76,70 @@ z-index: 1;
   background-color: #2f80ed;
 }
 
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.content {
+  width: 100%;
+  /* border: 1px solid olive; */
+  /* display: flex; */
+  /* justify-items: center; */
+}
+
+.description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0;
+  /* position: absolute; */
+  border: 1px solid red;
+}
+
+.two-columns {
+  margin: 0;
+}
+
+.two-columns_size {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  width: 100%;
+  margin-top: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:first-of-type {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -85,12 +148,3 @@ z-index: 1;
   margin-top: 80px;
 }
 
-.description {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #fff;
-  /* выше установили ограничения для секции */
-  position: relative;
-  border: 1px solid red;
-}
