@@ -52,7 +52,7 @@
   line-height: 96px;
   font-weight: bold;
   z-index: 2;
-  background-color: transparent;;
+  background-color: transparent;
 }
 
 .header__subtitle {
@@ -68,7 +68,7 @@
   font-weight: normal;
   z-index: 2;
   display: inline;
-  background-color: transparent
+  background-color: transparent;
 }
 
 .header__main-illustration {
@@ -78,7 +78,7 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-  background-color: transparent
+  background-color: transparent;
 }
 
 .header__square-pic {
