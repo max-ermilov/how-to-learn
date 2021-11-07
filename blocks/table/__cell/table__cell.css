@@ -1,0 +1,6 @@
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+  flex-direction: column;
+  justify-content: flex-start;
+}

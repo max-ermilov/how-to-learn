@@ -1,9 +1,6 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
@@ -87,10 +84,6 @@
   color: #2f80ed;
 }
 
-.header__link::after {
-  content: " →";
-}
-
 .content {
   width: 100%;
 }
@@ -134,12 +127,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  display: inline;
-}
-
-.two-columns__paragraph:first-of-type {
-  margin: 0;
-  width: auto;
   display: inline;
 }
 
@@ -254,10 +241,6 @@
   font-weight: normal;
 }
 
-.feynman__link::after {
-  content: " →";
-}
-
 .kaufman {
   margin: 0;
   width: 100%;
@@ -347,10 +330,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__author::before {
-  content: "© ";
 }
 
 .footer__column-heading {
